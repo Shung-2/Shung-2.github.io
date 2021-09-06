@@ -4,6 +4,7 @@
 
 * { box-sizing: border-box; }
 
+// 키워드 검색용 주석 (글자 폰트 크기 조절)
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
@@ -11,15 +12,15 @@ html {
   font-size: 16px;
 
   @include breakpoint($medium) {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   @include breakpoint($large) {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   @include breakpoint($x-large) {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   -webkit-text-size-adjust: 100%;
