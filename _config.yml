@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "🐱‍💻 기억보단, 기록을"
+title                    : "기억보단, 기록을" 
 title_separator          : "|"
-subtitle                 : "     : Today I Learned" # site tagline that appears below site title in masthead
+subtitle                 : "Today I Learned" # site tagline that appears below site title in masthead
 name                     : "셩잇님 😎"
 description              : "게임 프로그래머로 취업하기 위해 정리하는 나만의 블로그!"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/hacker-cat_1f431-200d-1f4bb.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
