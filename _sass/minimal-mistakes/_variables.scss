@@ -12,6 +12,8 @@ $doc-font-size: 16 !default;
 $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
+// <!-- 키워드 검색용 주석, 폰트 수정 (210824) -->
+
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
 $sans-serif: "RIDIBatang", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
@@ -151,7 +153,7 @@ $large: 1024px !default;
 $x-large: 1280px !default;
 $max-width: $x-large !default;
 
-// 키워드 검색용 주석 (좌우 여백 줄이기)
+// <!-- 키워드 검색용 주석, 좌우 여백 줄이기 (초기값으로 수정 (21097)) -->
 
 /*
    Grid
