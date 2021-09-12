@@ -98,6 +98,7 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+// <!-- 키워드 검색용 주석, 이름, 프로필 사진, 설명, 장소 등 (210906) -->
 # Site Author
 author:
   name             : "셩잇님 😎"
