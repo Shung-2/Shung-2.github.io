@@ -17,7 +17,7 @@
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+    <!-- <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
@@ -25,6 +25,27 @@
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %} -->
+
+    <h2 class="archive__item-title" itemprop="headline">
+      {★% if post.link %}
+          <a href="">{★{ title }}</a> <a href="" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {★% else %}
+          <a href="" rel="permalink">{★{ title }}</a>
+      {★% endif %}
+    </h2>
+    <!-- 이 곳에 텍스트 입력 -->
+    {★% if post.read_time %}
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {★% include read-time.html %}</p>
+    {★% endif %}
+    {★% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{★{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{★% endif %}
+
+    {★% if post.categories[0] != null %}
+		  <p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> {★{ post.date | date: "%m/%d/%Y" }} &nbsp; <i class="far fa-folder-open"></i> {★{ post.categories }}</p>
+	  {★% else %}
+		  <p class="archive__item-excerpt"><i class="far fa-calendar-alt"></i> {★{ post.date | date: "%m/%d/%Y" }}
+	  {★% endif %}
   </article>
 </div>
+
+
