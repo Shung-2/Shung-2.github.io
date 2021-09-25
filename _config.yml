@@ -21,7 +21,7 @@ title_separator          : "|"
 subtitle                 : "Today I Learned" # site tagline that appears below site title in masthead
 name                     : "셩잇님 😎"
 description              : "게임 프로그래머로 취업하기 위해 정리하는 나만의 블로그!"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://shung-2.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -98,6 +98,7 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+# <!-- 키워드 검색용 주석, 이름, 프로필 사진, 설명, 장소 등 (210906) -->
 # Site Author
 author:
   name             : "셩잇님 😎"

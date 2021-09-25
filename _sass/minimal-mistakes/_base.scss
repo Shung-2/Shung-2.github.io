@@ -124,8 +124,9 @@ blockquote {
 }
 
 /* links */
-
+// <!-- 키워드 검색용 주석, 게시글 밑줄 제거 (210912) -->
 a {
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
