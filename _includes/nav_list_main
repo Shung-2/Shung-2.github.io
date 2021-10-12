@@ -129,7 +129,7 @@
                 {% endfor %}
             </ul>
 
-        ; <span class="nav__sub-title">UE4</span>
+        <!-- ; <span class="nav__sub-title">UE4</span>
         ;     <ul>
         ;         {% for category in site.categories %}
         ;             {% if category[0] == "UE4 Lesson 1" %}
@@ -171,7 +171,7 @@
         ;                 <li><a href="/categories/ue4error" class="">에러 메모 ({{category[1].size}})</a></li>
         ;             {% endif %}
         ;         {% endfor %}
-        ;     </ul>
+        ;     </ul> -->
         
         <span class="nav__sub-title">CS</span>
             <ul>
