@@ -1,4 +1,8 @@
-# <!-- 키워드 검색용 주석, 상단 내비게이션 수정 (210823) -->
+# <!-- 키워드 검색용 주석, 상단 내비게이션 수정(210823), 카테고리 추가(211101) -->
+# 카테고리 추가시
+# 1. _include/nav_list_main 에서 코드를 추가한ㄷ
+# sidebar.html에서 머릿말에 sidebar_main = true를 해주면 nav_list_main을 불러오게끔 마지막 부분에 코딩되어있다.
+# 2. pages/catecory에 연결할 카테고리 페이지를 추가한다.
 
 # main links
 main:
@@ -6,8 +10,8 @@ main:
     url: https://shung-2.github.io/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Category"
+    url: /categories/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

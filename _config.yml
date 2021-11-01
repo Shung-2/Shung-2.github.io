@@ -289,4 +289,4 @@ defaults:
       share: false
       related: true
       mathjax: true
-      sidebar_main: false
+      sidebar_main: true
